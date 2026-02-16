@@ -1,0 +1,9 @@
+🟢Verde ahorro + azul tecnológico 
+🎯 Transmite: ahorro + confianza + tecnología
+Uso			Color		HEX
+Color primario		Verde intenso	#1DB954
+Color secundario	Azul oscuro	#0A2540
+Fondo claro		Gris muy claro	#F5F7FA
+Texto principal		Gris oscuro	#1E1E1E
+Precio destacado	Verde brillante	#00C853
+Alertas			Rojo suave	#E53935

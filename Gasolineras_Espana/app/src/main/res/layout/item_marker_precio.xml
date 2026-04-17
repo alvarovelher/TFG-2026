@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nuestro pino personalizado flotante para el marcador del mapa -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_marker" 
+    android:elevation="6dp"
+    android:padding="8dp">
+
+    <!-- Logo de la marca  -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/cd_marker_logo" />
+
+    <!-- Precios en pequeño -->
+    <TextView
+        android:id="@+id/txtPreciosMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="2dp" />
+
+</LinearLayout>
